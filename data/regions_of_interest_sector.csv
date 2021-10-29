@@ -1,0 +1,16 @@
+﻿label;centre_x;centre_y;centre_z;radius max;radius_min;yaw_angle;height;h_angle;rel_speed;distance;critical_index;required_parameter1;required_parameter2;required_parameter3;speed;env_type;env_type2;env_type3
+Parking- Corner FR;0;1;0;5;0;-45;2;90;15;5;0.48;position;;;15;urban;;
+Parking- Corner RR;-5;1;0;5;0;-135;2;90;15;5;0.3;position;;;5;urban;;
+Parking- Corner FL;0;-1;0;5;0;45;2;90;15;5;0.48;position;;;15;urban;;
+Parking- Corner RL;-5;-1;0;5;0;135;2;90;15;5;0.3;position;;;5;urban;;
+EBA- High Speed left;0;1;0;116;46;1;2;2;80;116;0.64;position;speed;;100;;;highway
+EBA- High Speed right;0;-1;0;116;46;-1;2;2;80;116;0.64;position;speed;;100;;;highway
+EBA- Medium Speed left;0;-1;0;46;14;1.25;2;2.5;50;46;0.64;position;speed;;60;urban;rural;highway
+EBA- Medium Speed right;0;1;0;46;14;-1.25;2;2.5;50;46;0.64;position;speed;;60;urban;rural;highway
+EBA- Low Speed left;0;-1;0;14;0;17.75;2;35.5;30;14;1;position;speed;image;30;urban;rural;
+EBA- Low Speed right;0;1;0;14;0;-17.75;2;35.5;30;14;1;position;speed;image;30;urban;rural;
+Traffic sign recognition- last lane;0;1.75;2.1;14;5;0;1.5;71;50;5;0.5;;;image;50;urban;rural;
+Traffic sign recognition- mid lane;5;4;2.1;14;5;0;1.5;71;50;10;0.5;;;image;50;urban;rural;
+Traffic sign recognition- first lane;10;7;2.1;14;5;0;1.5;71;50;15;0.5;;;image;50;urban;rural;highway
+Lane keep- near left;0;2;0;14;0;17.75;0.5;35.5;30;0;0.5;;;image;30;urban;rural;
+Lane keep- near right;0;-2;0;14;0;-17.75;0.5;35.5;30;0;0.5;;;image;30;urban;rural;
